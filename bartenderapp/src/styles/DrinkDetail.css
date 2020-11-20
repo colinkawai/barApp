@@ -1,0 +1,29 @@
+#modalDialog {
+  margin: 70px auto 1.75rem auto;
+  max-width: 40%;
+  height: 100%;
+}
+#modalFooter {
+  border-top: 1px solid #dee2e6;
+}
+#modalDialog .modal-content {
+  display: flex;
+  align-items: initial;
+  height: 70%;
+}
+#modalDialog .modal-body {
+  overflow-y: scroll;
+}
+#modalDialog .close:focus {
+  outline: 2px solid lightgray;
+}
+.ingredientsAndAmount {
+  display: flex;
+  flex-direction: row;
+}
+#amount {
+  list-style-type: none;
+}
+.hasIngredient {
+  color: red;
+}

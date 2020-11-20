@@ -1,0 +1,33 @@
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  height: 100%;
+  background-color: #f0f0f0;
+}
+
+.drinksResultsContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center; /*center items vertically*/
+}
+.drinks {
+  width: 280px;
+  height: 380px;
+  display: flex;
+  flex-direction: column;
+  background-color: linen;
+  cursor: pointer;
+  margin: 10px;
+}
+.drinkHover {
+  box-shadow: 1px 1px 5px 3px lightgray;
+}
+
+.drinkPhoto {
+  width: 100%;
+  height: 200px;
+}

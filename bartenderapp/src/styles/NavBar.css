@@ -1,0 +1,79 @@
+.NavContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100vw;
+  height: 80px;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  justify-content: space-between;
+  border-bottom: 2px solid lightgray;
+  background-color: #f0f0f0;
+}
+#infoButton {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-left: auto;
+  margin-right: 50px;
+  cursor: pointer;
+}
+.centerButtons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 50px;
+}
+
+.innerCenterButton {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.hover {
+  box-shadow: 1px 3px 6px lightgray;
+}
+.button {
+  height: 40px;
+  border: none;
+  background-color: white;
+  border: 1px solid;
+  border-color: lightgray;
+}
+#keyWordButton {
+  border-right: none;
+}
+#ingredientsButton {
+  border-left: none;
+  border-right: none;
+}
+#leftButton {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-color: lightgray;
+}
+#rightButton {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-color: lightgray;
+  border-left: none;
+}
+.btn-secondary {
+  color: black !important;
+  background-color: white !important;
+  border-color: lightgray !important;
+}
+#title {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 50px;
+  font-size: 30px;
+  cursor: pointer;
+}

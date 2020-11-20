@@ -1,0 +1,14 @@
+.facetSelection {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  align-items: center;
+  height: 50px;
+  margin-top: 90px;
+
+}
+
+#facetOne {
+  flex: 1;
+  padding: 10px;
+}
